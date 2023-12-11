@@ -1,0 +1,224 @@
+{
+  "leads": [
+    {
+      "context": "Analytics",
+      "data": [
+        {
+          "id": 258028,
+          "myaudiUserId": 503681,
+          "type": "Information request",
+          "salesPartnerId": 11,
+          "aftersalesPartnerId": null,
+          "ownedVehicleId": null,
+          "desiredVehicleId": 697117,
+          "callCenter": null,
+          "aftersales": 0,
+          "vtp": 1,
+          "createdAt": "2021-01-13T10:02:21+01:00",
+          "updatedAt": "2021-01-14T10:05:05+01:00",
+          "afterSalesLead": {
+            "concernedOwnedVehicle": null
+          },
+          "vtpLeads": [
+            {
+              "offerUrl": "https://audi.fr/A6KBYBC6",
+              "desiredVehicleModel": "Audi A7 Sportback - 40 TDI S tronic",
+              "desiredVehiclePrice": "64650",
+              "commissionNumber": "0",
+              "desiredVehicleMileage": null,
+              "desiredVehiclePower": "0",
+              "desiredVehicleFirstRegistrationDate": null,
+              "createdAt": "2021-01-13T10:02:21+01:00",
+              "offerDate": "2021-01-13T10:00:36+01:00",
+              "desiredVehicleColor": "F14 A2A2",
+              "comment": null,
+              "id": 3822,
+              "desiredVehicleDisplacement": 0,
+              "updatedAt": "2021-01-13T10:02:21+01:00"
+            }
+          ],
+          "offer": [],
+          "legacyData": [],
+          "marketingObjectives": [],
+          "recipients": [],
+          "services": [],
+          "callTrackingStates": [
+            {
+              "integrationDate": "2021-01-13T10:02:25+01:00",
+              "elapsed_time": null,
+              "dateTimeFirstCall": null,
+              "type": "auto",
+              "enabled": false,
+              "status": "IN_PROGRESS"
+            },
+            {
+              "integrationDate": "2021-01-13T10:02:25+01:00",
+              "elapsed_time": null,
+              "dateTimeFirstCall": null,
+              "type": "auto",
+              "enabled": true,
+              "status": "NOT_CALL_DEADLINE_REACHED"
+            }
+          ],
+          "providerServices": [
+            {
+              "sviBackupNumber": "0644631617",
+              "sviCode": "855095",
+              "availability": "OK",
+              "deadline": "2021-01-14T10:03:21+01:00",
+              "providerName": "DOD",
+              "sviMainNumber": "0187211415"
+            }
+          ],
+          "additionalInformation": null,
+          "myaudiUser": {
+            "id": 503681,
+            "firstName": "Arnaud",
+            "lastName": "RICHTER",
+            "gender": "M",
+            "mystery": false,
+            "email": "arnaud.richter@audi.fr",
+            "bornDate": "1981-01-01T00:00:00+01:00",
+            "createdAt": "2017-01-30T15:21:05+01:00",
+            "updatedAt": "2021-01-13T17:03:25+01:00",
+            "currentCompletionRate": {
+              "createdAt": "2020-12-08T08:58:57+01:00",
+              "rate": 70,
+              "id": 204730,
+              "status": 1,
+              "updatedAt": "2020-12-08T08:58:57+01:00"
+            },
+            "currentProfile": {
+              "id": 1207456,
+              "profile": {
+                "id": 10,
+                "name": "myAudi - Client",
+                "description": null
+              },
+              "status": 1,
+              "createdAt": "2020-07-22T10:54:42+02:00",
+              "updatedAt": "2020-07-22T10:54:42+02:00"
+            },
+            "formId": 0,
+            "lastLogin": "2021-01-13T17:03:25+01:00"
+          },
+          "address": {
+            "owner": {
+              "foreignOwnerId": "258028",
+              "id": 1158452,
+              "type": "lead"
+            },
+            "addresses": [],
+            "phones": [
+              {
+                "owner": "1158452",
+                "number": "0137658901",
+                "createdAt": "2021-01-13T10:02:22+01:00",
+                "bloctel": false,
+                "id": 803840,
+                "type": "personal",
+                "updatedAt": "2021-01-13T10:02:22+01:00"
+              }
+            ],
+            "emails": [
+              {
+                "owner": "1158452",
+                "createdAt": "2021-01-13T10:02:22+01:00",
+                "id": 721166,
+                "type": null,
+                "email": "arnaud.richter@audi.fr",
+                "updatedAt": "2021-01-13T10:02:22+01:00"
+              }
+            ]
+          },
+          "vehicle": {
+            "owned": null,
+            "desired": {
+              "id": 697117,
+              "informationRequested": true,
+              "informationRequestedAt": null,
+              "myaudiUserId": 503681,
+              "status": 1,
+              "created_at": "2021-01-13T10:02:20+01:00",
+              "updated_at": "2021-01-13T10:02:20+01:00",
+              "audiCode": "A6KBYBC6",
+              "refferal": "information_request",
+              "brand": {
+                "id": 4,
+                "name": "AUDI",
+                "status": 1,
+                "created_at": "2018-07-03T21:45:01+02:00",
+                "updated_at": "2018-07-03T21:45:01+02:00"
+              },
+              "range": {
+                "id": 7,
+                "name": "A7"
+              },
+              "model": {
+                "id": 28,
+                "name": "Audi A7 Sportback",
+                "status": 1,
+                "createdAt": "2013-01-18T21:53:34+01:00",
+                "updatedAt": "2018-07-03T21:45:02+02:00",
+                "isCae": false
+              },
+              "configuration": [],
+              "purchaseType": {
+                "id": 1,
+                "name": "Neuf",
+                "status": 1,
+                "created_at": "2013-01-18T21:53:34+01:00",
+                "updated_at": "2018-07-03T21:45:08+02:00"
+              },
+              "purchaseDelay": {
+                "id": 3,
+                "name": "Plus de 12 mois",
+                "status": 1,
+                "created_at": "2013-01-18T21:53:34+01:00",
+                "updated_at": "2018-07-03T21:45:08+02:00"
+              },
+              "purchaseMode": {
+                "id": 1,
+                "name": "Comptant",
+                "status": 1,
+                "created_at": "2013-01-18T21:53:34+01:00",
+                "updated_at": "2018-07-03T21:45:08+02:00"
+              },
+              "usage": {
+                "id": 1,
+                "name": "Privé",
+                "status": 1,
+                "created_at": "2013-01-18T21:53:34+01:00",
+                "updated_at": "2018-07-03T21:45:08+02:00"
+              }
+            }
+          },
+          "orders": [],
+          "myaudiUserMarketing": {
+            "marketingObjectives": [
+              {
+                "myaudiUserId": 503681,
+                "createdAt": "2018-03-26T18:34:13+02:00",
+                "marketingObjective": {
+                  "name": "Demande d'informations",
+                  "id": 3,
+                  "status": 1
+                },
+                "id": 949153,
+                "isUnsubscribe": false,
+                "updatedAt": "2018-07-04T10:30:15+02:00"
+              }
+            ]
+          },
+          "lead_type": "info",
+          "isSentToCommunication": { 
+            "generic": false,
+            "sentToMecaPlanning": false,
+            "sentToCallTracking": true
+          },
+          "shouldDisplayDiscountPriceColumn": false
+        }
+      ]
+    }
+  ]
+}
